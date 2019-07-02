@@ -10,7 +10,7 @@ Manual statistical queries were performed with loop_statistics.R and also contai
 
 The extra file contains some scripts on processing ChIP information and RNA seq data to be included to the statObj later on, through the statObj_creation script as part of the pipeline.
 
-Much of the scripts in the peakHiC_pipeline are originally created by Geert Geeven and Valerio Bianchi.
+Much of the scripts in the peakHiC_pipeline are originally created by Geert Geeven and Valerio Bianchi, please do not use the pipeline without acknowledging them.
 
 The data is not on github as it are too large files, data can be requested or retrieved from GEO as described in my thesis. 
 
