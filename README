@@ -1,1 +1,16 @@
-kkooo
+The peakHiC_pipeline folder contains all the scripts necessary for running peakHiC. 
+The pipeline is called from the peakHiC_pipeline_iwan.R, which needs the HiC reads data, in silico digestion fragments of your restriction enzyme, viewpoints as specified with the GenomeObj_creation.R and any further RNA expression data or protein/histone ChIP. 
+This script takes a long time to run.
+
+After this you can use the generated StatObj for any statistical inquiries, which hold a large amount of information on the loops.
+All these loops and viewpoints can be visualised by the plot script plot_V4C_vpID.R, based on the vpIDs specified in the GenomeObj.
+
+I performed a systematic statistical analysis using TAD_BW_analysis.R for which I use the distinctions.R script to specify categories of loops to investigate.
+Manual statistical queries were performed with loop_statistics.R and also contain many of the figures, this was an exploratory script. 
+
+The extra file contains some scripts on processing ChIP information and RNA seq data to be included to the statObj later on, through the statObj_creation script as part of the pipeline.
+
+Much of the scripts in the peakHiC_pipeline are originally created by Geert Geeven and Valerio Bianchi.
+
+The data is not on github as it are too large files, data can be requested or retrieved from GEO as described in my thesis. 
+
